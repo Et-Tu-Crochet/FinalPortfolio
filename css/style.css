@@ -1,0 +1,115 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+.larger-image{
+    width: 1510px;
+    height: 400px;
+    
+}
+.smaller-image{
+   width: 100px;
+   height: 100px;
+   border-radius: 47%;
+}
+.thin-black-border{
+   border-color: black;
+   border-width: 5px;
+   border-style: solid;
+}
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.container{
+    /*display: grid;
+    grid-template-columns: 10% 60% 20% 10%;
+    grid-template-rows: 10% 60% 20% 10%;*/
+    width: 80%;
+
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+} 
+
+.button{
+   height: 40px;
+   background: black;
+   padding: 10px 15px 10px 15px;
+   border-style:inset;
+   color: #d1cece;
+}
+
+header{
+    background: #967B7B;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #808080 10px solid; 
+    font-size: 20px;
+}
+
+.smaller-image{
+    width: 75px;
+    height: 75px;
+    border-radius: 47%;
+}
+
+header a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #img-options{
+    float: left;
+}
+
+header #img-options h1{
+    margin: 0
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+header a:hover{
+    color: #d1cece;
+    font-weight: bold;
+}
+
+#placeholderphoto{
+    min-height: 700px;
+    background: url('../images/pexels-sl-wong-1023953.jpg') no-repeat;
+    text-align: center; 
+}
+#placeholderphoto h1{
+    margin-top: 65px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#placeholderphoto p{
+    font-size: 20px;
+}
