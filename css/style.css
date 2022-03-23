@@ -100,8 +100,8 @@ header a:hover{
 }
 
 #placeholderphoto{
-    min-height: 700px;
-    background: url('../images/pexels-sl-wong-1023953.jpg') no-repeat;
+    min-height:1900px;
+    background: url('../images/pexels-sl-wong-1023953.jpg');
     text-align: center; 
 }
 #placeholderphoto h1{
